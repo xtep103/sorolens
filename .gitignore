@@ -1,6 +1,4 @@
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Node
@@ -26,4 +24,4 @@ sorolens-bin
 
 # Misc
 .DS_Store
-.env
+config.bat
