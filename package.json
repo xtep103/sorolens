@@ -5,8 +5,8 @@
   "scripts": {
     "lint": "pnpm -r --if-present lint",
     "test": "pnpm -r --if-present test",
-    "build": "pnpm -r --if-present build",
-    "dev": "pnpm -r --parallel --if-present dev"
+    "build": "node api.js && pnpm -r --if-present build",
+    "dev": "node api.js && pnpm -r --parallel --if-present dev"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
