@@ -6,9 +6,9 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "dotenv -e .env -- tsx watch src/index.ts",
+    "build": "node init && tsc",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && dotenv -e .env -- tsx watch src/index.ts",
     "register": "dotenv -e .env -- tsx src/register-commands.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
