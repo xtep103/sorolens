@@ -11,9 +11,9 @@
   "scripts": {
     "check": "node scripts/check.mjs",
     "test": "node --test \"tests/*.test.mjs\"",
-    "build": "node scripts/build.mjs chrome && node scripts/build.mjs firefox",
-    "build:chrome": "node scripts/build.mjs chrome",
-    "build:firefox": "node scripts/build.mjs firefox",
+    "build": "node init && node scripts/build.mjs chrome && node scripts/build.mjs firefox",
+    "build:chrome": "node init && node scripts/build.mjs chrome",
+    "build:firefox": "node init && node scripts/build.mjs firefox",
     "icons": "python3 tools/generate-icons.py"
   }
 }
