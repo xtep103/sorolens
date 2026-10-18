@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat-api-request-logs-539",
+    "feat/invocation-function-filter",
+    "feat/last-activity",
+    "fix-api-sse-flush-527",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat-api-request-logs-539": "main",
+    "feat/invocation-function-filter": "main",
+    "feat/last-activity": "main",
+    "fix-api-sse-flush-527": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat-api-request-logs-539",
+    "feat/invocation-function-filter",
+    "feat/last-activity",
+    "fix-api-sse-flush-527",
+    "origin"
+  ]
+}
