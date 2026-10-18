@@ -4,9 +4,11 @@
   "private": true,
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "vitest run",
     "lint": "echo \"No lint yet\""
   },
